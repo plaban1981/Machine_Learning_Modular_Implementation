@@ -10,3 +10,8 @@ touch utils/model.py
 touch regressor.py
 touch requirements.txt
 pip install -r requirements.txt
+# Vesrion control -git command
+cd Machine_Learning_Modular_Implementation/
+git add .
+git commit -m "modular commit"
+git push origin main
