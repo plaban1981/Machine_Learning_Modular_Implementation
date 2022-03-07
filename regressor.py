@@ -82,7 +82,7 @@ y = df[['sales']]
 X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.33,random_state=101)
 #build model
 lr = LinearRegression()
-# train model
+# train modelgit branch
 lr.fit(X_train,y_train)
 #evaluate the model
 y_pred = lr.predict(X_test)
